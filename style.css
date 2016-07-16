@@ -1,0 +1,119 @@
+body {
+  font-family: Avenir;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* ZERO */
+
+#zero {
+    background-color: black;
+    color: white;
+}
+
+#zero .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.zerotext {
+    padding-left: 40px;
+}
+
+.egg {
+    width: 150px;
+    height: 230px;
+    padding-left: none;
+}
+
+
+/* FIRST */
+
+#first {
+    background-color: #44609C;
+    color: white;
+}
+
+.firstcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.firsttext {
+    padding-left: 30px;
+}
+
+.firstpics {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic1 {
+    height: 260px;
+    padding-bottom: 10px;
+}
+
+/* SECOND */
+
+#second {
+    background-color: #4DD1A2;
+}
+
+.icon {
+    width: 30px;
+}
+
+.secondgrid {
+    width: 40%;
+}
+
+#second h4, #second p {
+    padding: none;
+    margin: none;
+}
+
+#secondcontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* THIRD */
+
+#third {
+    background-color: #FD5C59;
+}
+
+/* FOURTH */
+
+#fourth {
+    background-color: #FFBF61;
+}
+
+/* ALL PAGES */
+
+.wholepage {
+    height: 100%;
+    padding: 2% 5% 5% 25%;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 30px;
+}
