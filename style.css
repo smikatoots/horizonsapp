@@ -1,0 +1,386 @@
+body {
+  font-family: Avenir;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* INTRO */
+#intro {
+    padding-top: 1%;
+    background-color: black;
+    color: white;
+}
+
+/* MENU */
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.menulink {
+    background-color: none;
+    width: 100%;
+}
+
+a .menubutton {
+    background-color: none;
+}
+
+a:hover img {
+    background-color: none;
+}
+
+#menu {
+    background-color: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 5%;
+    left: 5%
+}
+
+button:focus, button:active {
+    outline: none;
+}
+
+#menubuttongroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menubutton {
+    border: none;
+    font-family: Avenir;
+    font-size: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#menupic {
+    height: 100px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.socialicon {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+
+
+/* HELLO */
+
+#hello {
+    background-color: grey;
+    color: white;
+}
+
+#hello .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#hellomenu:hover {
+    background-color: white;
+    color: black;
+}
+
+.hellotext {
+    padding-left: 40px;
+}
+
+.egg {
+    width: 150px;
+    height: 230px;
+    padding-left: none;
+}
+
+
+
+
+/* BASICS */
+
+#basicsmenu {
+    background-color: #44609C;
+    color: white;
+}
+
+#basicsmenu:focus {
+    background-color: white;
+    color: black;
+}
+
+#basicsmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#basics {
+    background-color: #44609C;
+    color: white;
+}
+
+
+.basicscontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.basicstext {
+    padding-left: 30px;
+}
+
+.basicspics {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic1 {
+    height: 260px;
+    padding-bottom: 10px;
+}
+
+/* PROBLEM */
+
+#problemmenu {
+    background-color: #ffbf61;
+    color: white;
+}
+
+#problemmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#problem {
+    background-color: #FFBF61;
+}
+
+/* I AM... */
+
+#iammenu {
+    background-color: #fa9b62;
+    color: white;
+}
+
+#iammenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#iam {
+    background-color: #FA9b62;
+}
+
+/* WHY */
+
+#whymenu {
+    background-color: #4DD1A2;
+    color: white;
+}
+
+#whymenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#why {
+    background-color: #4DD1A2;
+}
+
+.icon {
+    width: 30px;
+}
+
+.whygrid {
+    width: 40%;
+}
+
+#why h4, #why p {
+    padding: none;
+    margin: none;
+}
+
+#whycontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* TURNING POINT */
+
+#turningpointmenu {
+    background-color: #b9d4f3;
+    color: white;
+}
+
+#turningpointmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#turningpoint {
+    background-color: #b9d4f3;
+}
+
+
+/* ENTREP */
+
+#entrepmenu {
+    background-color: #fd5c59;
+    color: white;
+}
+
+#entrepmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#entrep {
+    background-color: #FD5C59;
+}
+
+/* TECH */
+
+.roboterra {
+    height: 350px;
+    padding-left: 20px;
+}
+
+#techmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#techmenu {
+    background-color: #b2cf59;
+    color: white;
+}
+
+#tech {
+    background-color: #b2cf59;
+}
+
+/* DESIGN */
+
+#designmenu {
+    background-color: #de6f92;
+    color: white;
+}
+
+#designmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#design {
+    background-color: #de6f92;
+}
+
+#designcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+#design img {
+    height: 350px;
+    padding-top: 20px;
+}
+
+
+/* PHILOSOPHIES */
+
+#philosophiesmenu {
+    background-color: #6d9f92;
+    color: white;
+}
+
+#philosophiesmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#philosophies {
+    background-color: #6D9F92;
+    color: white;
+}
+
+/* THINGS */
+
+#thingsmenu {
+    background-color: #fbf679;
+    color: white;
+}
+
+#thingsmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#things {
+    background-color: #FBF679;
+}
+
+
+/* LIKES */
+
+#likesmenu {
+    background-color: #3e84aa;
+    color: white;
+}
+
+#likesmenu:hover {
+    background-color: white;
+    color: black;
+}
+
+#likes {
+    background-color: #3e84AA;
+    color: white;
+}
+
+
+/* ALL PAGES */
+
+.wholepage {
+    padding: 5% 10% 15% 25%;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h3 {
+    font-size: 120px;
+    line-height: 110px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 15px;
+}
