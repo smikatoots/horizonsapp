@@ -94,10 +94,6 @@ button:focus, button:active {
 }
 
 #hello .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
 
 #hellomenu:hover {
     background-color: white;
@@ -113,9 +109,6 @@ button:focus, button:active {
     height: 230px;
     padding-left: none;
 }
-
-
-
 
 /* BASICS */
 
@@ -138,6 +131,7 @@ button:focus, button:active {
     background-color: #44609C;
     color: white;
 }
+
 
 
 .basicscontent {
