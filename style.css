@@ -34,6 +34,10 @@ a:hover img {
     background-color: none;
 }
 
+.philolinks {
+    color: white;
+}
+
 #menu {
     background-color: none;
     color: black;
@@ -76,12 +80,13 @@ button:focus, button:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 
 .socialicon {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     margin: 2px;
 }
 
@@ -93,21 +98,33 @@ button:focus, button:active {
     color: white;
 }
 
-#hello .content {
+#hellomenu {
+    color: white;
+}
 
 #hellomenu:hover {
+    color: black;
+    background-color: white;
+}
+
+#hellomenu:focus {
     background-color: white;
     color: black;
 }
 
+#hello .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .hellotext {
-    padding-left: 40px;
 }
 
 .egg {
     width: 150px;
     height: 230px;
-    padding-left: none;
+    padding-right: 40px;
 }
 
 /* BASICS */
@@ -132,20 +149,19 @@ button:focus, button:active {
     color: white;
 }
 
-
-
 .basicscontent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .basicstext {
-    padding-left: 30px;
 }
 
 .basicspics {
     display: flex;
     flex-direction: column;
+    padding-right: 30px;
 }
 
 .basic1 {
@@ -167,6 +183,22 @@ button:focus, button:active {
 
 #problem {
     background-color: #FFBF61;
+}
+
+.problemcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+#problem p {
+    padding-top: 20px;
+    width: 500px;
+}
+
+.problempic {
+    width: 250px;
+    height: 350px;
+    padding-left: 10px;
 }
 
 /* I AM... */
@@ -207,6 +239,7 @@ button:focus, button:active {
 
 .whygrid {
     width: 40%;
+    margin: 10px;
 }
 
 #why h4, #why p {
@@ -290,9 +323,14 @@ button:focus, button:active {
     background-color: #de6f92;
 }
 
+#designtext {
+    width: 600px;
+}
+
 #designcontent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #design img {
@@ -376,5 +414,76 @@ h3 {
 
 h4 {
     font-size: 20px;
-    line-height: 15px;
+    line-height: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    #menubuttongroup {
+        width: 50px;
+        margin: 0;
+    }
+
+    .menubutton {
+        font-size: 8px;
+        line-height: 30px;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: transparent;
+    }
+
+    #menupic {
+        height: 50px;
+        width: 50px;
+    }
+
+    .egg {
+        width: 70px;
+        height: 100px;
+
+    }
+
+    .basic1 {
+        width: 90px;
+        height: 100px;
+
+    }
+
+    .problempic {
+        width: 90px;
+        height: 110px;
+        padding-top: 50px;
+
+    }
+
+    .roboterra {
+        height: 130px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 25px;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
 }

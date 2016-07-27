@@ -1,16 +1,16 @@
 <html>
-
 <head>
   <title> Mika Reyes </title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Avenir">
+  <link rel="icon" href="assets/pics/logomenu.png"/>
 </head>
 
 <body>
     <div id = "menu">
-      <img id = "menupic" src = "assets/pics/logo.png"></img>
+      <a href = "#intro"><img id = "menupic" src = "assets/pics/logomenu.png"></img></a>
       <div id = "menubuttongroup">
           <a href = "#hello" class = "menulink"><button id = "hellomenu" class = "menubutton">hello</button></a>
           <a href = "#basics" class = "menulink"><button id = "basicsmenu" class = "menubutton">basics</button></a>
@@ -35,7 +35,7 @@
     <div class = "wholepage" id = "hello">
         <h1>Why hello there!</h1>
         <div class = "content">
-            <a href = "https://www.youtube.com/watch?v=3I0d3p7jYa4&feature=youtu.be"><img class = "egg" src = "assets/pics/egg.png"></br></br></br></br></a>
+            <a href = "https://www.youtube.com/watch?v=3I0d3p7jYa4&feature=youtu.be"><img class = "egg" src = "assets/pics/egg.png"></a>
             <p class = "hellotext">I really, really want to get into this fellowship program. Really.
                 So I created this simple webpage to tell my story.
                 (A 2-minute video couldn't cut it!)<br><br>
@@ -68,14 +68,14 @@
               <p><b>Current location: </b>Santa Clara, CA</p>
               <p><b>Current job: </b>UX/UI Designer at Roboterra</p>
               <div class = "contact">
-                  <a href = "http://mikaelareyes.com"><img class = "socialicon" src = "logo.png"></a>
-                  <a href = "http://facebook.com/smikatoots"><img class = "socialicon" src = "facebook.png"></a>
-                  <a href = "http://linkedin.com"><img class = "socialicon" src = "linkedin.png"></a>
-                  <a href = "http://medium.com/@smikatweets"><img class = "socialicon" src = "medium.png"></a>
-                  <a href = "http://smikatoots.tumblr.com"><img class = "socialicon" src = "tumblr.png"></a>
-                  <a href = "http://twitter.com/@smikatweets"><img class = "socialicon" src = "twitter.png"></a>
-                  <a href = "http://github.com/smikatoots"><img class = "socialicon" src = "github.png"></a>
-                  <a href = "http://instagram.com/smikatoots"><img class = "socialicon" src = "instagram.png"></a>
+                  <a href = "http://mikaelareyes.com"><img class = "socialicon" src = "assets/pics/logo.png"></a>
+                  <a href = "http://facebook.com/smikatoots"><img class = "socialicon" src = "assets/pics/facebook.png"></a>
+                  <a href = "https://www.linkedin.com/in/mikaela-helene-reyes-7291b683?trk=nav_responsive_tab_profile_pic"><img class = "socialicon" src = "assets/pics/linkedin.png"></a>
+                  <a href = "http://medium.com/@smikatoots"><img class = "socialicon" src = "assets/pics/medium.png"></a>
+                  <a href = "http://smikatoots.tumblr.com"><img class = "socialicon" src = "assets/pics/tumblr.png"></a>
+                  <a href = "http://twitter.com/@smikatweets"><img class = "socialicon" src = "assets/pics/twitter.png"></a>
+                  <a href = "http://github.com/smikatoots"><img class = "socialicon" src = "assets/pics/github.png"></a>
+                  <a href = "http://instagram.com/smikatoots"><img class = "socialicon" src = "assets/pics/instagram.png"></a>
               </div>
           </div>
 
@@ -84,6 +84,7 @@
 
     <div class = "wholepage" id = "problem">
       <h1>The pitch</h1>
+      <div class = "problemcontent">
       <p> I love tech, especially because of its potential to reach a huge mass of people and improve developing economies.
           I want to grow the tech economy in the Philippines. Product management will help me ship my ideas
           and give me appropriate training and confidence to start a company of my own. But also,
@@ -95,6 +96,8 @@
           To help me in my path, I think it's important I know how to communicate technically, build my resilience
           as a problem solver and learn how to build things of value to others.
       </p>
+      <img class = "problempic" src = "assets/pics/map.png">
+      </div>
     </div>
 
     <div class = "wholepage" id = "why">
@@ -147,7 +150,7 @@
           If I had stayed, I would have probably taken the corporate route. Would have gotten a lot of money, sure.
           But maybe would have never gotten a taste of what it meant to live out my passion.
           I am so happy I took the plunge.<br><br>
-          My freshman year was DIFICULT! I maybe called my dad up and cried to him almost every week that fall semester.
+          My freshman year was DIFFICULT! I maybe called my dad up and cried to him almost every week that fall semester.
           I had to adjust to a new culture (collectivist > individualistic, conservative > liberal),
           a new lifestyle (HS > college) AND a new school (and a very liberal school at that)!<br><br>
           But, as our diversity leader tells us: "Lean into discomfort." It was hard, but without it, I wouldn't be the empathetic, self-aware person I am today.
@@ -158,7 +161,7 @@
     </div>
 
     <div class = "wholepage" id = "entrep">
-      <h1>My entrepreneurship/ startup story?</h1>
+      <h1>My entrepreneurial story?</h1>
       <ul>
           <li>Got involved in the social entrepreneurship hub at Wes in my sophomore year.</li>
           <li>Worked with a Filipino student who started an education startup
@@ -207,7 +210,7 @@
       <h1>My design story?</h1>
       <div id = "designcontent">
           <img src = "assets/pics/design.jpg">
-          <ul>
+          <ul id="designtext">
               <li>Got introduced to the concept of Human-Centered Design through a fellowship. Adore the philosophy!</li>
               <li>Taught a for-credit student forum called <a href = "http://wesdesignthinking.tumblr.com">"Innovation through Design Thinking"</a></li>
               <li>Went through the Design Thinking MOOC by Acumen and IDEO. All my design background is self-taught!</li>
@@ -228,13 +231,18 @@
 
     <div class = "wholepage" id = "philosophies">
       <h1>A few current philosophies</h1>
-      <h4>Becoming is better than being. - Carol Dweck (the growth mindset)</h4><!--TODO: link!-->
-      <h4>"This is water." - David Foster Wallace</h4><!--TODO: link!-->
+      <h4><a class = "philolinks" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwjuv9zcxfnNAhVX42MKHRRDAOAQtwIIOjAD&url=https%3A%2F%2Fwww.ted.com%2Ftalks%2Fcarol_dweck_the_power_of_believing_that_you_can_improve%3Flanguage%3Den&usg=AFQjCNFp4SR_jMNNRSoVL6eBWU9aLvpPlQ">
+          Becoming is better than being. - Carol Dweck (the growth mindset)</a></h4>
+      <h4><a class = "philolinks" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwihiLyAxvnNAhVV52MKHcsfBP4QtwIIJDAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dpfw2Qf1VfJo&usg=AFQjCNFU1-nvFLAJhbQHTgdktPOA0zMHqQ">
+          "This is water." - David Foster Wallace</a></h4>
       <h4>"Lean into discomfort." - our diversity advisor Elisa Cardona</h4>
-      <h4>Feedback feedback feedback!</h4><!--TODO: link!-->
-      <h4>A liberal arts mind is a treasure trove.</h4><!--TODO: link!-->
-      <h4>On learning: anyone can learn anything + I love experience/project-based learning</h4>
-      <h4>Flow.</h4><!--TODO: link!-->
+      <h4><a class = "philolinks" href="https://medium.com/@smikatoots/about-a-month-ago-the-company-i-work-for-sent-their-product-to-a-famous-youtube-r-who-promoted-1531db9a1f3e">
+          Feedback feedback feedback!</a></h4>
+      <h4><a class = "philolinks" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi7iMnJxvnNAhUHzGMKHW39AdYQFggcMAA&url=https%3A%2F%2Fmedium.com%2F%40Bosefina%2Fthis-is-water-give-the-liberal-arts-majors-a-chance-38acd7635cd&usg=AFQjCNFBsyQkqKKn_0DlgDVJ_LEUzdbmKw&bvm=bv.127178174,d.cGc">
+          A liberal arts mind is a treasure trove.</a></h4>
+      <h4>On learning: anyone can learn anything + experience/project-based learning</h4>
+      <h4><a class = "philolinks" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwiapbKgxvnNAhUG7WMKHcSWBjgQtwIIODAD&url=https%3A%2F%2Fwww.ted.com%2Ftalks%2Fmihaly_csikszentmihalyi_on_flow%3Flanguage%3Den&usg=AFQjCNGrV67GioEWYkjc-4OJq_u8zrQWvg&bvm=bv.127178174,d.cGc">
+          Flow. - Mihaly Csikszentmihalyi</a></h4>
       <h4>Keep on keeping on. (KOKO) - Economics professor</h4>
       <h4>Stay weird (go Wes!)</h4>
       <h4>Ever tried. Ever failed. No matter. Try again. Fail Again. Fail better. - Samuel Beckett</h4>
